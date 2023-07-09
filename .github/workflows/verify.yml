@@ -3,6 +3,8 @@ name: Verify
 on:
   pull_request:
     branches: [ master ]
+  # Allow triggering manually
+  workflow_dispatch:
 
 jobs:
   build:
